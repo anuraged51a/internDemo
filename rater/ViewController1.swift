@@ -5,8 +5,11 @@ class ViewController1: UIViewController {
     //SliderScreen
     var ratings: [NSManagedObject] = []
     var ratValue: String = "0"
+    var minV = String()
+    var maxV = String()
     
     @IBOutlet weak var sliderLabel: UILabel!
+    @IBOutlet weak var sliderOutlet: UISlider!
     
     @IBAction func slider(_ sender: UISlider) {
         sliderLabel.text = String(Int(sender.value))
@@ -66,6 +69,10 @@ class ViewController1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Slider custom after getting segue
+        sliderOutlet.minimumValue = Float(minV)!
+        sliderOutlet.maximumValue = Float(maxV)!
+        sliderOutlet.value = (Float(maxV)! - Float(minV)!)/2
+        sliderLabel.text = String(Int(sliderOutlet.value))
     }
     
 }
