@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var maxValue: UITextField!
     
     @IBAction func ratingSelect(_ sender: UIButton) {
-        if minValue.text != "" && maxValue.text != ""{
+        if minValue.text != "" && maxValue.text != "" && (Int(maxValue.text!)!)<10 && (Int(minValue.text!)!)>=0{
             sender.setTitle("Range" + minValue.text! + maxValue.text!, for: .normal)
             performSegue(withIdentifier: "submitPage", sender: self)
         }
