@@ -2,7 +2,7 @@ import UIKit
 import CoreData
 
 class ViewController1: UIViewController {
-    //SliderScreen
+    //SliderScr
     var ratings: [NSManagedObject] = []
     var ratValue: String = "0"
     var minV = String()
