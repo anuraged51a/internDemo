@@ -28,6 +28,7 @@
 		39295CD3245D2FFA00583FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39295CDD245D49ED00583FA4 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		39295CDF245D9ED800583FA4 /* ratingTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratingTable.swift; sourceTree = "<group>"; };
+		39295CE3245E7A6C00583FA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		39295CB8245D2FF700583FA4 = {
 			isa = PBXGroup;
 			children = (
+				39295CE3245E7A6C00583FA4 /* README.md */,
 				39295CC3245D2FF800583FA4 /* rater */,
 				39295CC2245D2FF800583FA4 /* Products */,
 			);
