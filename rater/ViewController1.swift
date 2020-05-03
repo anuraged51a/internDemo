@@ -56,6 +56,12 @@ class ViewController1: UIViewController {
         print("4")
     }
 
+    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "viewRating2"{
+            let controller  = segue.destination as! ratingTable
+        }
+    }*/
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
